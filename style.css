@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 280px;
+    height: 450px;
+    border-radius: 10px;
+    margin: 100px 560px;
+}
+.images {
+    background: url(img/image-equilibrium.jpg) no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 15px;
+    position: absolute;
+}
+.view {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    display:flex;
+    background-color: rgba(96, 231, 236, 0.637);
+    background-size: 250px;
+    border-radius: 10px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 100px;
+}
+.view:hover {
+    opacity: 100%;
+}
+
+/* text */
+.text {
+    padding: 280px 10px;
+    
+}
+h3 {
+    color: hsl(178, 100%, 50%);
+}
+a {
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+}
+p {
+    color: hsl(217, 12%, 51%);
+}
+.time {
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.clock {
+    margin-left: 60px;
+
+}
+.avatar {
+    display: flex;
+    margin-top: 10px;
+}
+.foto {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.avatar p {
+    padding: 5px 10px;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        margin: 80px;
+    }
+}
