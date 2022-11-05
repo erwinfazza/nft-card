@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -50,15 +52,18 @@ body {
     padding: 280px 10px;
     
 }
-h3 {
-    color: hsl(178, 100%, 50%);
-}
+
 a {
-    color: hsl(178, 100%, 50%);
+    color: white;
     text-decoration: none;
+    font-family: 'outfit', sans-serif;
+}
+a:hover {
+    color: hsl(178, 100%, 50%);
 }
 p {
     color: hsl(217, 12%, 51%);
+    font-family: 'outfit', sans-serif;
 }
 .time {
     display: flex;
